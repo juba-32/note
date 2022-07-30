@@ -1,0 +1,158 @@
+body{
+background: rgba( 126, 211, 33, 1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.dark{
+	cursor: pointer;
+	color: black;
+	font-size: 18px;
+	border: none;
+	background: rgba( 31, 38, 135, 0.37 );
+	border-radius: 50px;
+
+}
+.mode .dark{
+	background-color: black;
+	color: gray;
+}
+.dark:hover{
+	background-color: black;
+	color: white;
+	border-radius: 50px;
+	font-size: 20px;
+    padding: 5px 7px;
+
+}
+h1{
+
+	text-align: center;
+    border-bottom: 3px solid rgba( 31, 38, 100, 0.20 );
+    border-radius: 50px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.mode h1{
+	color: gray;
+	border-bottom: 3px solid gray;
+}
+.note-bar{
+	width: 60vw;
+	line-height: 20px;
+	border: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 10px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 30px;
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+
+}
+.mode .note-bar{
+	border-bottom: 3px solid gray;
+	border-radius: 50px;
+}
+.icon-heart{
+	color: red;
+}
+.icon-star{
+	opacity: 0.5;
+}
+.mode .icon-star{
+	color: gray;
+}
+.icon-star:hover{
+	color: orange;
+	opacity: 1;
+}
+.mode .icon-star:hover{
+	color: orange;
+	opacity: 1;
+}
+.icon-trash-o{
+	opacity: 0.5;
+}
+.icon-trash-o:hover{
+	opacity: 1;
+}
+.mode .icon-trash-o{
+	color: gray;
+}
+.icon-angry{
+	opacity: 0.5;
+	color: orange;
+}
+
+.mode .icon-angry:hover{
+	color: orange;
+	opacity: 1;
+}
+.icon-angry{
+	opacity: 1;
+}
+.note-bar p{
+	font-size: 22px;
+}
+.mode .note-bar p{
+	color: gray;
+
+}
+.note-bar span{
+	font-size: 22px;
+	cursor: pointer;
+}
+
+
+.upload{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	margin-top: 120px;
+}
+.upload input{
+	width: 40vw;
+	height: 30px;
+	font-size: 22px;
+	background-color: rgba( 31, 38, 100, 0.20 );
+	text-align: center;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+.mode .upload input{
+	color: gray;
+}
+.icon-upload{
+	font-size: 25px;
+	color: saddlebrown;
+	padding-left: 5px;
+	cursor: pointer;
+}
+.mode .icon-upload{
+	color: gray;
+}
+.mode{
+background-color: black;
+
+}
+.star{
+   color: orange;
+   opacity: 1;
+}
+.mode .star{
+	color: orange;
+	opacity: 1;
+}
+.ds{
+	display: none;
+}
